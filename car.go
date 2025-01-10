@@ -20,6 +20,6 @@ func (м *car) acceleration() {
 	fmt.Println("машину начало заносить......")
 }
 func (м *car) crashed() {
-	fmt.Println("дитэкъой разбилась :(")
+	fmt.Println("разбилась :(")
 	м.crash = true
 }
